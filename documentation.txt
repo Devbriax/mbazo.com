@@ -1,0 +1,66 @@
+****************************************************************
+Portfolio Web Page Planning:
+---------------------------------------------------------------+
+No. Of Sections
+================================================================\\
+- 6 Sections:
+- #NAVIGATION + LOGO: - Section
+- #LANDING-PAGE/HOME: - Section
+- #SKILLS: - Section
+- #PROJECTS: - Section
+- #GET IN TOUCH: - Section
+================================================================\\
+
+Page layout+++
+#NAVIGATION + LOGO:
+================================================================\\
+- logo-img (svg suggestion)
+- nagivation-links ="landing/home";" skills", "projects", " aboutme", "get-in-TOUCH";
+- All these navigation headers need to be linked to the different sections of the page. 
+================================================================\\
+#LANDING-PAGE/HOME:
+================================================================\\
+- Image slide show (background images)
+- animation design 
+================================================================\\
+#SKILLS:
+================================================================\\
+- consider using icones and percentage bars to display the different skillsets. 
+- card flipping suggestion. (create a card that when flipped on one 
+side you have an image icon adn on the other a percentage ranking.)
+================================================================\\
+#PROJECTS:
+================================================================\\
+- Within this section consider adding 3 projects:
+- API Application 
+- Seo Friendly Website
+- E-Commerece Landing Page
+- CMS System (Drupal, CraftCMS, Expression Engine, ApostropheCMS) 
+- Card flipping suggestion. (create a card that when flipped on one 
+side you have an image icon adn on the other a percentage ranking.)
+================================================================\\
+#ABOUT ME:
+================================================================\\
+- Brief Description of my coding/ Web developemnt Journey. 
+- Along with the different challenges faced .
+- How those challenges should be where fixed and overcome. 
+- Work Experience and exposure.  
+================================================================\\
+#GET IN TOUCH: 
+================================================================\\
+- Form submission.
+- Split form into two sections (input section + animation of sorts)
+- Image Logo on the side 
+================================================================\\
+
+PHP& SQL Server Addition: 
+================================================================\\
+================================================================\\
+
+================================================================\\
+================================================================\\
+
+================================================================\\
+================================================================\\
+---------------------------------------------------------------+
+****************************************************************
