@@ -17,11 +17,13 @@ Page layout+++
 - logo-img (svg suggestion)
 - nagivation-links ="landing/home";" skills", "projects", " aboutme", "get-in-TOUCH";
 - All these navigation headers need to be linked to the different sections of the page. 
+
 ================================================================\\
 #LANDING-PAGE/HOME:
 ================================================================\\
 - Image slide show (background images)
-- animation design 
+- animation design
+- Call to Action(CTA) *button* 
 ================================================================\\
 #SKILLS:
 ================================================================\\
@@ -49,12 +51,15 @@ side you have an image icon adn on the other a percentage ranking.)
 #GET IN TOUCH: 
 ================================================================\\
 - Form submission.
-- Split form into two sections (input section + animation of sorts)
-- Image Logo on the side 
+- Split form into two sections (input section + Image Logo on the side 
 ================================================================\\
 
 PHP& SQL Server Addition: 
 ================================================================\\
+OPTIONS: 
+- Firebase - 
+- SQL LITE - 
+- NO SQL -  
 ================================================================\\
 
 ================================================================\\
