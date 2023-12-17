@@ -51,7 +51,7 @@ side you have an image icon adn on the other a percentage ranking.)
 #GET IN TOUCH: 
 ================================================================\\
 - Form submission.
-- Split form into two sections (input section + Image Logo on the side 
+- Split form into two sections (input section + Image Logo on the side)
 ================================================================\\
 
 PHP& SQL Server Addition: 
@@ -61,8 +61,13 @@ OPTIONS:
 - SQL LITE - 
 - NO SQL -  
 ================================================================\\
-
+COLOR PALLETES:
 ================================================================\\
+#40513B = Green color. 
+#609966 = light-green COLOR
+#9DC08B = lighter-green COLOR
+#EDF1D6 = lighter-ligter-green COLOR
+#6F4C5B = Maroon color.  
 ================================================================\\
 
 ================================================================\\

@@ -1,10 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -12,7 +9,9 @@ html {
 }
 
 body {
-  background: #f2f2f2;
+  background-color: #9DC08B;
+  font-family: 'monospace', sans-serif;
+  font-weight: 700;
 }
 
 header {
@@ -23,7 +22,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #333;
+  background: #40513B;
 }
 
 .navbar {
@@ -64,7 +63,8 @@ header a,
 footer a {
   margin-left: 40px;
   text-decoration: none;
-  color: #fff;
+  text-transform: uppercase;
+  color: gold;
   height: 100%;
   padding: 20px 0;
   display: inline-block;
@@ -72,16 +72,13 @@ footer a {
 
 header a:hover,
 footer a:hover {
-  color: #ddd;
+  color: #000;
 }
 
 .homepage {
-  height: 100vh;
+  background-color: #609966;
   width: 100%;
-  position: relative;
-  background: url("");
-  background-position: center 65%;
-  background-size: cover;
+  height: 100vh;
 }
 
 .homepage::before {
@@ -91,7 +88,7 @@ footer a:hover {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+
 }
 
 .homepage .content {
@@ -100,7 +97,7 @@ footer a:hover {
   z-index: 3;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .homepage .content h1 {
@@ -111,22 +108,22 @@ footer a:hover {
 
 .homepage .content .text {
   margin-bottom: 50px;
-  color: #fff;
+  color: gold;
   font-size: 20px;
   text-align: center;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .content a {
-  color: #000;
+  color: gold;
   display: block;
   text-transform: uppercase;
   font-size: 18px;
   margin: 0 10px;
   padding: 10px 30px;
   border-radius: 5px;
-  background: #fff;
-  border: 2px solid #fff;
+  background: #40513B;
+  border: 2px solid gold;
   transition: 0.4s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   text-decoration: none;
@@ -184,7 +181,7 @@ section.about {
 }
 
 section .cards .card {
-  background: #fff;
+  background: #40513B;
   padding: 40px 15px;
   list-style: none;
   border-radius: 5px;
@@ -242,7 +239,7 @@ section .cards .card {
 }
 
 .contact .col p i {
-  color: #7a7a7a;
+  color: #40513B;
   margin-right: 10px;
 }
 
@@ -253,7 +250,7 @@ section .cards .card {
   width: 100%;
   font-size: 16px;
   outline: none;
-  border: 1px solid #bfbfbf;
+  border: 1px solid gold;
 }
 
 .contact form textarea {
@@ -263,30 +260,30 @@ section .cards .card {
   height: 150px;
   outline: none;
   resize: vertical;
-  border: 1px solid #bfbfbf;
+  border: 1px solid gold;
 }
 
 .contact form button {
   margin-top: 10px;
   padding: 10px 20px;
   font-size: 17px;
-  color: #fff;
+  color: gold;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  background: #333;
+  background: #40513B;
   transition: 0.2s ease;
 }
 
 .contact form button:hover {
-  background: #525252;
+  background: #000;
 }
 
 footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #000;
+  background: #40513B;
   padding: 20px 0;
 }
 
@@ -295,11 +292,11 @@ footer div {
   max-width: 1200px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 footer span {
-  color: #fff;
+  color: gold;
 }
 
 footer a {
@@ -314,7 +311,7 @@ footer a {
     display: block;
     height: 100vh;
     top: 75px;
-    background: #333;
+    background: #40513B;
     transition: left 0.3s ease;
   }
 
