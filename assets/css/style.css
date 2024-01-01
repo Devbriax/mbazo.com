@@ -195,7 +195,7 @@ section .cards .card {
   padding: 0 0 20px;
 }
 
-.services .card img {
+.skills.card img {
   width: 120px;
   height: 120px;
   margin-bottom: 20px;
