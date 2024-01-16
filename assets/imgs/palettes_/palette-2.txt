@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/423e37-e3b23c-edebd7-a39594-6e675f */
+
+- Tailwind
+
+{ 'black_olive': { DEFAULT: '#423e37', 100: '#0d0d0b', 200: '#1b1916', 300: '#282621', 400: '#35322d', 500: '#423e37', 600: '#6d665b', 700: '#958e80', 800: '#b8b3ab', 900: '#dcd9d5' }, 'xanthous': { DEFAULT: '#e3b23c', 100: '#322507', 200: '#644a0e', 300: '#966f15', 400: '#c8951d', 500: '#e3b23c', 600: '#e9c062', 700: '#eed089', 800: '#f4e0b0', 900: '#f9efd8' }, 'eggshell': { DEFAULT: '#edebd7', 100: '#3f3c1c', 200: '#7d7838', 300: '#b5ae5b', 400: '#d1cd9a', 500: '#edebd7', 600: '#f1f0e0', 700: '#f5f3e8', 800: '#f8f7f0', 900: '#fcfbf7' }, 'taupe_gray': { DEFAULT: '#a39594', 100: '#221d1d', 200: '#433a39', 300: '#655756', 400: '#867472', 500: '#a39594', 600: '#b6aaa9', 700: '#c8bfbf', 800: '#dad4d4', 900: '#edeaea' }, 'dim_gray': { DEFAULT: '#6e675f', 100: '#161413', 200: '#2c2926', 300: '#413d39', 400: '#57524c', 500: '#6e675f', 600: '#8d857c', 700: '#aaa49d', 800: '#c6c2be', 900: '#e3e1de' } }
+
+- CSV
+
+423e37,e3b23c,edebd7,a39594,6e675f
+
+- With #
+
+#423e37, #e3b23c, #edebd7, #a39594, #6e675f
+
+- Array
+
+["423e37","e3b23c","edebd7","a39594","6e675f"]
+
+- Object
+
+{"Black olive":"423e37","Xanthous":"e3b23c","Eggshell":"edebd7","Taupe gray":"a39594","Dim gray":"6e675f"}
+
+- Extended Array
+
+[{"name":"Black olive","hex":"423e37","rgb":[66,62,55],"cmyk":[0,6,17,74],"hsb":[38,17,26],"hsl":[38,9,24],"lab":[26,0,5]},{"name":"Xanthous","hex":"e3b23c","rgb":[227,178,60],"cmyk":[0,22,74,11],"hsb":[42,74,89],"hsl":[42,75,56],"lab":[75,6,64]},{"name":"Eggshell","hex":"edebd7","rgb":[237,235,215],"cmyk":[0,1,9,7],"hsb":[55,9,93],"hsl":[55,38,89],"lab":[93,-3,10]},{"name":"Taupe gray","hex":"a39594","rgb":[163,149,148],"cmyk":[0,9,9,36],"hsb":[4,9,64],"hsl":[4,8,61],"lab":[63,5,2]},{"name":"Dim gray","hex":"6e675f","rgb":[110,103,95],"cmyk":[0,6,14,57],"hsb":[32,14,43],"hsl":[32,7,40],"lab":[44,1,5]}]
+
+- XML
+
+<palette>
+  <color name="Black olive" hex="423e37" r="66" g="62" b="55" />
+  <color name="Xanthous" hex="e3b23c" r="227" g="178" b="60" />
+  <color name="Eggshell" hex="edebd7" r="237" g="235" b="215" />
+  <color name="Taupe gray" hex="a39594" r="163" g="149" b="148" />
+  <color name="Dim gray" hex="6e675f" r="110" g="103" b="95" />
+</palette>

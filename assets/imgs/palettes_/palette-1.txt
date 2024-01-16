@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/654f6f-5c5d8d-99a1a6-a8c69f-cce2a3 */
+
+- Tailwind
+
+{ 'english_violet': { DEFAULT: '#654f6f', 100: '#141016', 200: '#281f2c', 300: '#3c2f42', 400: '#503f58', 500: '#654f6f', 600: '#866994', 700: '#a58eaf', 800: '#c3b4ca', 900: '#e1d9e4' }, 'ultra_violet': { DEFAULT: '#5c5d8d', 100: '#13131c', 200: '#252539', 300: '#383855', 400: '#4a4b72', 500: '#5c5d8d', 600: '#7a7aa8', 700: '#9b9cbe', 800: '#bcbdd3', 900: '#dedee9' }, 'cadet_gray': { DEFAULT: '#99a1a6', 100: '#1e2122', 200: '#3c4145', 300: '#5a6267', 400: '#788389', 500: '#99a1a6', 600: '#aeb5b9', 700: '#c2c7ca', 800: '#d7dadc', 900: '#ebeced' }, 'celadon': { DEFAULT: '#a8c69f', 100: '#1f2d1b', 200: '#3e5936', 300: '#5d8650', 400: '#80ab73', 500: '#a8c69f', 600: '#bad1b3', 700: '#cbddc6', 800: '#dce8d9', 900: '#eef4ec' }, 'tea_green': { DEFAULT: '#cce2a3', 100: '#2d3b13', 200: '#5a7625', 300: '#86b138', 400: '#abcf67', 500: '#cce2a3', 600: '#d6e7b5', 700: '#e0edc7', 800: '#eaf3da', 900: '#f5f9ec' } }
+
+- CSV
+
+654f6f,5c5d8d,99a1a6,a8c69f,cce2a3
+
+- With #
+
+#654f6f, #5c5d8d, #99a1a6, #a8c69f, #cce2a3
+
+- Array
+
+["654f6f","5c5d8d","99a1a6","a8c69f","cce2a3"]
+
+- Object
+
+{"English Violet":"654f6f","Ultra Violet":"5c5d8d","Cadet gray":"99a1a6","Celadon":"a8c69f","Tea green":"cce2a3"}
+
+- Extended Array
+
+[{"name":"English Violet","hex":"654f6f","rgb":[101,79,111],"cmyk":[9,29,0,56],"hsb":[281,29,44],"hsl":[281,17,37],"lab":[37,16,-15]},{"name":"Ultra Violet","hex":"5c5d8d","rgb":[92,93,141],"cmyk":[35,34,0,45],"hsb":[239,35,55],"hsl":[239,21,46],"lab":[41,12,-27]},{"name":"Cadet gray","hex":"99a1a6","rgb":[153,161,166],"cmyk":[8,3,0,35],"hsb":[203,8,65],"hsl":[203,7,63],"lab":[66,-2,-4]},{"name":"Celadon","hex":"a8c69f","rgb":[168,198,159],"cmyk":[15,0,20,22],"hsb":[106,20,78],"hsl":[106,25,70],"lab":[77,-17,16]},{"name":"Tea green","hex":"cce2a3","rgb":[204,226,163],"cmyk":[10,0,28,11],"hsb":[81,28,89],"hsl":[81,52,76],"lab":[87,-18,28]}]
+
+- XML
+
+<palette>
+  <color name="English Violet" hex="654f6f" r="101" g="79" b="111" />
+  <color name="Ultra Violet" hex="5c5d8d" r="92" g="93" b="141" />
+  <color name="Cadet gray" hex="99a1a6" r="153" g="161" b="166" />
+  <color name="Celadon" hex="a8c69f" r="168" g="198" b="159" />
+  <color name="Tea green" hex="cce2a3" r="204" g="226" b="163" />
+</palette>

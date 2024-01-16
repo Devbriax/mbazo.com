@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/b8336a-726da8-7d8cc4-a0d2db-c490d1 */
+
+- Tailwind
+
+{ 'raspberry_rose': { DEFAULT: '#b8336a', 100: '#250a15', 200: '#4a142a', 300: '#6e1e40', 400: '#932855', 500: '#b8336a', 600: '#d05286', 700: '#db7da5', 800: '#e7a9c3', 900: '#f3d4e1' }, 'ultra_violet': { DEFAULT: '#726da8', 100: '#161522', 200: '#2c2945', 300: '#413e67', 400: '#57538a', 500: '#726da8', 600: '#8e8ab9', 700: '#aaa7ca', 800: '#c6c4dc', 900: '#e3e2ed' }, 'glaucous': { DEFAULT: '#7d8cc4', 100: '#14192c', 200: '#283259', 300: '#3c4c85', 400: '#5065b1', 500: '#7d8cc4', 600: '#97a3d0', 700: '#b1badc', 800: '#cbd1e8', 900: '#e5e8f3' }, 'non_photo_blue': { DEFAULT: '#a0d2db', 100: '#153237', 200: '#2a636d', 300: '#3e95a4', 400: '#68b8c6', 500: '#a0d2db', 600: '#b2dbe2', 700: '#c5e4e9', 800: '#d9edf0', 900: '#ecf6f8' }, 'wisteria': { DEFAULT: '#c490d1', 100: '#2c1532', 200: '#582a63', 300: '#843e95', 400: '#a95ebc', 500: '#c490d1', 600: '#cfa6da', 700: '#dbbce3', 800: '#e7d2ec', 900: '#f3e9f6' } }
+
+- CSV
+
+b8336a,726da8,7d8cc4,a0d2db,c490d1
+
+- With #
+
+#b8336a, #726da8, #7d8cc4, #a0d2db, #c490d1
+
+- Array
+
+["b8336a","726da8","7d8cc4","a0d2db","c490d1"]
+
+- Object
+
+{"Raspberry rose":"b8336a","Ultra Violet":"726da8","Glaucous":"7d8cc4","Non Photo blue":"a0d2db","Wisteria":"c490d1"}
+
+- Extended Array
+
+[{"name":"Raspberry rose","hex":"b8336a","rgb":[184,51,106],"cmyk":[0,72,42,28],"hsb":[335,72,72],"hsl":[335,57,46],"lab":[44,57,0]},{"name":"Ultra Violet","hex":"726da8","rgb":[114,109,168],"cmyk":[32,35,0,34],"hsb":[245,35,66],"hsl":[245,25,54],"lab":[49,16,-31]},{"name":"Glaucous","hex":"7d8cc4","rgb":[125,140,196],"cmyk":[36,29,0,23],"hsb":[227,36,77],"hsl":[227,38,63],"lab":[59,8,-31]},{"name":"Non Photo blue","hex":"a0d2db","rgb":[160,210,219],"cmyk":[27,4,0,14],"hsb":[189,27,86],"hsl":[189,45,74],"lab":[81,-14,-10]},{"name":"Wisteria","hex":"c490d1","rgb":[196,144,209],"cmyk":[6,31,0,18],"hsb":[288,31,82],"hsl":[288,41,69],"lab":[67,31,-26]}]
+
+- XML
+
+<palette>
+  <color name="Raspberry rose" hex="b8336a" r="184" g="51" b="106" />
+  <color name="Ultra Violet" hex="726da8" r="114" g="109" b="168" />
+  <color name="Glaucous" hex="7d8cc4" r="125" g="140" b="196" />
+  <color name="Non Photo blue" hex="a0d2db" r="160" g="210" b="219" />
+  <color name="Wisteria" hex="c490d1" r="196" g="144" b="209" />
+</palette>
