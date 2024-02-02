@@ -1,3 +1,11 @@
+:root {
+  --BlackOliv--: #423E37;
+  --Xanthous--: #E3B23C;
+  --Eggshell--: #EDEBD7;
+  --Taupe-gray--: #A39594;
+  --Dim-gray--: #6E675F;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +17,7 @@ html {
 }
 
 body {
-  background-color: blueviolet;
+  background-color: var(--Dim-gray--);
   font-family: 'monospace', sans-serif;
   font-weight: 700;
 }
@@ -22,9 +30,10 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #40513B;
+  background: var(--BlackOliv--);
 }
 
+/** header-section **/
 .navbar {
   display: flex;
   padding: 0 10px;
@@ -46,6 +55,7 @@ header {
 .navbar .nav-links {
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 
 .navbar .nav-links li {
@@ -75,13 +85,17 @@ footer a:hover {
   color: #000;
 }
 
+/** header-section **/
+
 .homepage {
   width: 100%;
   height: 100vh;
+  background-color: var(--Xanthous--);
+
 }
 
 .homepage::before {
-  content: "";
+  justify-content: space-between;
   position: absolute;
   left: 0;
   top: 0;
@@ -94,8 +108,9 @@ footer a:hover {
   height: 85%;
   z-index: 3;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   flex-direction: row;
+  padding: 57px;
 }
 
 .homepage .content h1 {
@@ -137,10 +152,14 @@ section {
   align-items: center;
   flex-direction: column;
   padding: 80px 0 0;
+  justify-content: space-evenly;
+  background-color: var(--BlackOliv--);
 }
 
 section h2 {
   font-size: 2rem;
+  color: var(--Eggshell--);
+  text-transform: uppercase;
 }
 
 section>p {
@@ -159,6 +178,8 @@ section .cards {
 section.about {
   margin: 0 auto;
   max-width: 1200px;
+  background-color: var(--Xanthous--);
+  border: 1px solid var(--Eggshell--);
 }
 
 .about .company-info {
@@ -179,7 +200,7 @@ section.about {
 }
 
 section .cards .card {
-  background: #40513B;
+  background: var(--Eggshell--);
   padding: 40px 15px;
   list-style: none;
   border-radius: 5px;
@@ -206,7 +227,7 @@ section .cards .card {
   padding-bottom: 10px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 7px;
+  border-radius: 25px;
 }
 
 .cards .card p {
@@ -218,6 +239,7 @@ section .cards .card {
   padding: 0 10px;
 }
 
+/** contact-form **/
 .contact .row {
   margin: 60px 0 90px;
   display: flex;
@@ -248,7 +270,8 @@ section .cards .card {
   width: 100%;
   font-size: 16px;
   outline: none;
-  border: 1px solid gold;
+  border: 5px solid var(--Taupe-gray--);
+  border-radius: 15px;
 }
 
 .contact form textarea {
@@ -258,30 +281,34 @@ section .cards .card {
   height: 150px;
   outline: none;
   resize: vertical;
-  border: 1px solid gold;
+  border: 5px solid var(--Taupe-gray--);
+  border-radius: 15px;
 }
 
 .contact form button {
   margin-top: 10px;
   padding: 10px 20px;
   font-size: 17px;
-  color: gold;
+  color: var(--Eggshell--);
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  background: #40513B;
+  background: var(--Dim-gray--);
   transition: 0.2s ease;
 }
 
 .contact form button:hover {
-  background: #000;
+  background: var(--Xanthous--);
 }
 
+/** contact-form **/
+
+/** footer **/
 footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #40513B;
+  background: var(--Xanthous--);
   padding: 20px 0;
 }
 
@@ -294,13 +321,16 @@ footer div {
 }
 
 footer span {
-  color: gold;
+  color: var(--Dim-gray--);
 }
 
 footer a {
   padding: 0;
 }
 
+/** footer **/
+
+/** media queries **/
 @media screen and (max-width: 860px) {
   .navbar .nav-links {
     position: fixed;
@@ -372,3 +402,5 @@ footer a {
     margin-bottom: 30px;
   }
 }
+
+/** media queries **/
