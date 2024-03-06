@@ -1,5 +1,5 @@
 ## mbazo.com
-Personal website solution.  
+Personal website solution.  (https://)
 
 <**************************************>
 
@@ -50,7 +50,9 @@ Optionally, include a navigation menu with links to different sections of your p
 ### Footer:
 - Include copyright information, links to privacy policy and terms of use if applicable.
 - Optionally, include links to additional pages like a blog or resume.
-- Remember, this is just a suggested layout. Feel free to modify and adapt it to suit your personal preferences and the content you want ===============================\\
+- Remember, this is just a suggested layout. Feel free to modify and adapt it to suit your personal preferences and the content you want
+
+  ===============================\\
 
 <************************************>
 
