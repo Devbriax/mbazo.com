@@ -250,6 +250,7 @@ section .cards .card {
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  background-image: url(/assets/imgs/rainy-background.jpg);
 }
 
 .contact .row .col {
@@ -302,6 +303,11 @@ section .cards .card {
 
 .contact form button:hover {
   background: var(--Xanthous--);
+}
+
+.push-me{
+  background-color: var(--Eggshell--);
+  border-radius: 8px ;
 }
 
 /** contact-form **/
