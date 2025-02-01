@@ -2,11 +2,9 @@
 
 :root {
   --font-family: Poppins;
-  --BlackOliv--: #423E37;
-  --Xanthous--: #E3B23C;
-  --Eggshell--: #EDEBD7;
-  --Taupe-gray--: #A39594;
-  --Dim-gray--: #6E675F;
+  --BlackOliv--: #219B9D;
+  --Xanthous--: #4C1F7A;
+  --Eggshell--: #FF8000;
 }
 
 * {
@@ -20,7 +18,7 @@ html {
 }
 
 body {
-  background-color: var(--Dim-gray--);
+  background-color: var(--Eggshell--);
   font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
@@ -78,7 +76,7 @@ footer a {
   margin-left: 40px;
   text-decoration: none;
   text-transform: uppercase;
-  color: gold;
+  color: var(--Xanthous--);
   height: 100%;
   padding: 20px 0;
   display: inline-block;
@@ -86,7 +84,7 @@ footer a {
 
 header a:hover,
 footer a:hover {
-  color: #000;
+  color: #ffff;
 }
 
 /** header-section **/
@@ -94,7 +92,9 @@ footer a:hover {
 .homepage {
   width: 100%;
   height: 100vh;
-  background-image: url(/assets/imgs/rainy-background.jpg);
+  background-image: url(/assets/imgs/geometric-3d-bg.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .homepage::before {
@@ -124,14 +124,14 @@ footer a:hover {
 
 .homepage .content .text {
   margin-bottom: 50px;
-  color: gold;
+  color: #fff;
   font-size: 20px;
   text-align: center;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .content a {
-  color: gold;
+  color: var(--Eggshell--);
   display: block;
   text-transform: uppercase;
   font-size: 18px;
@@ -139,7 +139,7 @@ footer a:hover {
   padding: 10px 30px;
   border-radius: 5px;
   background: #40513B;
-  border: 2px solid gold;
+  border: 2px solid var(--Eggshell--);
   transition: 0.4s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   text-decoration: none;
@@ -156,7 +156,7 @@ section {
   flex-direction: column;
   padding: 80px 0 0;
   justify-content: space-evenly;
-  background-color: var(--BlackOliv--);
+  background-color: var(--Xanthous--);
 }
 
 section h2 {
@@ -179,10 +179,7 @@ section .cards {
 }
 
 section.about {
-  margin: 0 auto;
-  max-width: 1200px;
-  background-color: var(--Xanthous--);
-  border: 1px solid var(--Eggshell--);
+  margin: 0 auto;ß
 }
 
 .about .company-info {
@@ -226,11 +223,11 @@ section .cards .card {
 }
 
 .card img {
-  width: 100%;
-  padding-bottom: 10px;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: 25px;
+    width: 50%;
+      border: 1px solid black;
+      border-radius: 151px;
+      padding-top: 2px;
+      padding-bottom: 5px;
 }
 
 .cards .card p {
@@ -246,11 +243,10 @@ section .cards .card {
 .contact .row {
   margin: 60px 0 90px;
   display: flex;
-  max-width: 1200px;
+  width: 900px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  background-image: url(/assets/imgs/rainy-background.jpg);
 }
 
 .contact .row .col {
@@ -290,14 +286,14 @@ section .cards .card {
 }
 
 .contact form button {
-  margin-top: 10px;
+margin-top: 10px;
   padding: 10px 20px;
   font-size: 17px;
-  color: var(--Eggshell--);
-  border: none;
+  color: #fff;
+  border: 2px solid #fff;
   cursor: pointer;
   border-radius: 5px;
-  background: var(--Dim-gray--);
+  background-color: var(--Eggshell--);
   transition: 0.2s ease;
 }
 
@@ -305,9 +301,13 @@ section .cards .card {
   background: var(--Xanthous--);
 }
 
-.push-me{
+.home {
+  padding: 1em;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
   background-color: var(--Eggshell--);
-  border-radius: 8px ;
+  border-radius: 8px;
 }
 
 /** contact-form **/
@@ -317,7 +317,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: var(--Xanthous--);
+  background: var(--BlackOliv--);
   padding: 20px 0;
 }
 
