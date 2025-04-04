@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background-color: var(--Eggshell--);
+  background-color: var(--Xanthous--);
   font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
@@ -151,7 +151,8 @@ footer a:hover {
 }
 
 section {
-  display: flex;
+display: flex;
+  color: #ffff;
   align-items: center;
   flex-direction: column;
   padding: 80px 0 0;
@@ -161,7 +162,7 @@ section {
 
 section h2 {
   font-size: 2rem;
-  color: var(--Eggshell--);
+  color: var(#ffff);
   text-transform: uppercase;
 }
 
@@ -200,7 +201,7 @@ section.about {
 }
 
 section .cards .card {
-  background: var(--Eggshell--);
+  background: var(--BlackOliv--);
   padding: 40px 15px;
   list-style: none;
   border-radius: 5px;
@@ -293,12 +294,12 @@ margin-top: 10px;
   border: 2px solid #fff;
   cursor: pointer;
   border-radius: 5px;
-  background-color: var(--Eggshell--);
+  background-color: var(--BlackOliv--);
   transition: 0.2s ease;
 }
 
 .contact form button:hover {
-  background: var(--Xanthous--);
+  background: #ffff;
 }
 
 .home {
@@ -306,7 +307,7 @@ margin-top: 10px;
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
-  background-color: var(--Eggshell--);
+  background-color: var(--BlackOliv--);
   border-radius: 8px;
 }
 
@@ -330,12 +331,9 @@ footer div {
 }
 
 footer span {
-  color: var(--Dim-gray--);
+  color: #fff;
 }
 
-footer a {
-  padding: 0;
-}
 
 /** footer **/
 
