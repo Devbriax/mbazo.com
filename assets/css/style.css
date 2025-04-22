@@ -4,7 +4,6 @@
   --font-family: Poppins;
   --BlackOliv--: #219B9D;
   --Xanthous--: #4C1F7A;
-  --Eggshell--: #FF8000;
 }
 
 * {
@@ -92,7 +91,7 @@ footer a:hover {
 .homepage {
   width: 100%;
   height: 100vh;
-  background-image: url(/assets/imgs/geometric-3d-bg.jpg);
+  background-image: url(/assets/imgs/dark-galaxy-geometric-bg.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -108,7 +107,7 @@ footer a:hover {
 
 .homepage .content {
   display: flex;
-  height: 85%;
+  height: 80%;
   z-index: 3;
   align-items: center;
   justify-content: end;
@@ -130,8 +129,14 @@ footer a:hover {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
+.home-img img {
+  max-width: 25%;
+  border-radius: 25px;
+  padding: 1em;
+  margin: 0 auto;
+}
+
 .content a {
-  color: var(--Eggshell--);
   display: block;
   text-transform: uppercase;
   font-size: 18px;
@@ -164,105 +169,57 @@ section h2 {
   font-size: 2rem;
   color: var(#ffff);
   text-transform: uppercase;
+  padding-top: 3em;font-size: 2rem;
+  color: var(#ffff);
+  text-transform: uppercase;
 }
 
 section>p {
   text-align: center;
 }
 
-section .cards {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin-top: 50px;
-  padding: 0 10px;
-  justify-content: space-between;
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
 }
 
-section.about {
-  margin: 0 auto;
+.card {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
 }
 
-.about .company-info {
-  margin-top: 30px;
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
 }
 
-.about h3 {
-  margin: 30px 0 10px;
+.front {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.about .team {
-  text-align: left;
-  width: 100%;
+.back {
+    background-color: #4CAF50;
+    color: white;
+    transform: rotateY(180deg);
 }
 
-.about .team ul {
-  padding-left: 20px;
+.card:hover .front {
+    transform: rotateY(180deg);
 }
 
-section .cards .card {
-  background: var(--BlackOliv--);
-  padding: 40px 15px;
-  list-style: none;
-  border-radius: 5px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
-  margin-bottom: 40px;
-  width: calc(100% / 3 - 30px);
-  text-align: center;
-}
-
-.portfolio .cards .card {
-  padding: 0 0 20px;
-}
-
-.skills.card img {
-  width: 120px;
-  height: 120px;
-  margin-bottom: 20px;
-  border-radius: 100%;
-  object-fit: cover;
-}
-
-.card img {
-    width: 50%;
-      border: 1px solid black;
-      border-radius: 151px;
-      padding-top: 2px;
-      padding-bottom: 5px;
-}
-
-.cards .card p {
-  padding: 0 15px;
-  margin-top: 5px;
-}
-
-.about .row {
-  padding: 0 10px;
+.card:hover .back {
+    transform: rotateY(0);
 }
 
 /** contact-form **/
-.contact .row {
-  margin: 60px 0 90px;
-  display: flex;
-  width: 900px;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.contact .row .col {
-  padding: 0 10px;
-  width: calc(100% / 2 - 50px);
-}
-
-.contact .col p {
-  margin-bottom: 10px;
-}
-
-.contact .col p i {
-  color: #40513B;
-  margin-right: 10px;
-}
 
 .contact form input {
   height: 45px;
@@ -319,21 +276,11 @@ footer {
   display: flex;
   justify-content: center;
   background: var(--BlackOliv--);
-  padding: 20px 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
-
-footer div {
-  padding: 0 10px;
-  max-width: 1200px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-footer span {
-  color: #fff;
-}
-
 
 /** footer **/
 
@@ -410,4 +357,3 @@ footer span {
   }
 }
 
-/** media queries **/
