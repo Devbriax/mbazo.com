@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B.M | Site</title>
-    <link rel="stylesheet" href="assets/css/style.css">shkkjlj
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="assets/imgs/icons8-circled-m-16.png">
     <link rel="javascript" href="javascript/script.js">
   </head>
 
@@ -45,106 +46,94 @@
         </div>
       </div>
     </section>
-
+    <br>
     <div class="social-icons">
-      <a href="#"><i class="github-logo"></i></a>
-      <a href="#"><i class="linkedin-logo"></i></a>
+      <a href="#"><i class="github-logo"><img src="assets/imgs/icons/github-icon.png" alt="github-logo-icon"
+            srcset=""></i></a>
+      <a href="#"><i class="linkedin-logo"><img src="assets/imgs/icons/linkedin-icon.png" alt="linkedin-logo-icon"
+            srcset=""></i></a>
     </div>
-    <div class="scroll-down">
-      <!-- end  header-section -->
+    <!-- end  header-section -->
 
+    <main id="content-wrapper">
       <!-- skills-section -->
-      <div class="card-container">
-        <div class="card">
-          <div class="front">
-            <h2>Front-end</h2>
+      <section class="skills" id="tech-set">
+        <h2>Tech-set</h2>
+        <div class="card-container">
+          <div class="card">
+            <div class="front">
+              <h3>Front-end</h3>
+            </div>
+            <div class="back">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+              </ul>
+            </div>
           </div>
-          <div class="back">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Vue.js</li>
-            </ul>
+          <div class="card">
+            <div class="front">
+              <h3>Back-end</h3>
+            </div>
+            <div class="back">
+              <ul>
+                <li>Node.js</li>
+                <li>C & C++</li>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>C#</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <h3>Version Control</h3>
+            </div>
+            <div class="back">
+              <ul>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>REST & SOAP APIs</li>
+                <li>Atlassian</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <div class="front">
-            <h2>Back-end</h2>
-          </div>
-          <div class="back">
-            <ul>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>Python</li>
-              <li>Django</li>
-              <li>Ruby on Rails</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card">
-          <div class="front">
-            <h2>Full Stack</h2>
-          </div>
-          <div class="back">
-            <ul>
-              <li>MongoDB</li>
-              <li>MySQL</li>
-              <li>GraphQL</li>
-              <li>REST APIs</li>
-              <li>Docker</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      </section>
       <!-- end skills-section -->
 
       <!-- portfolio-section -->
-      <div class="card-container">
-        <div class="card">
-          <div class="front">
-            <h2>Front-end</h2>
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="card-container">
+          <div class="card">
+            <div class="front">
+              <h3>Front-end Project</h3>
+            </div>
+            <div class="back">
+              <iframe src="https://www.youtube.com/embed/2g8v0j7q4aQ" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-          <div class="back">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Vue.js</li>
-            </ul>
+          <div class="card">
+            <div class="front">
+              <h3>Back-end Project</h3>
+            </div>
+            <div class="back">
+              <iframe src="https://www.youtube.com/embed/2g8v0j7q4aQ" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="front">
-            <h2>Back-end</h2>
-          </div>
-          <div class="back">
-            <ul>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>Python</li>
-              <li>Django</li>
-              <li>Ruby on Rails</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card">
-          <div class="front">
-            <h2>Full Stack</h2>
-          </div>
-          <div class="back">
-            <ul>
-              <li>MongoDB</li>
-              <li>MySQL</li>
-              <li>GraphQL</li>
-              <li>REST APIs</li>
-              <li>Docker</li>
-            </ul>
+          <div class="card">
+            <div class="front">
+              <h3>Full Stack Project</h3>
+            </div>
+            <div class="back">
+              <iframe src="https://www.youtube.com/embed/2g8v0j7q4aQ" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- end portfolio-section -->
 
       <!-- about-section -->
@@ -166,27 +155,28 @@
         </div>
       </section>
       <!-- end about-section -->
+    </main>
 
-      <!-- contact-section -->
-      <section class="contact" id="contact-me">
-        <h2>Get In Touch:</h2>
-        <br />
-        <form id="contact-form" action="https://formspree.io/f/xjvowzqk" method="POST">
-          <fieldset>
-            <input type="text" placeholder="Name*" required>
-            <input type="email" placeholder="Email*" required>
-            <textarea placeholder="Message*" required></textarea>
-            <button id="submit" type="submit">Send Message</button>
-          </fieldset>
-        </form>
-      </section>
-      <!-- end contact-section -->
+    <!-- contact-section -->
+    <section class="contact" id="contact-me">
+      <h2>Get In Touch:</h2>
+      <br />
+      <form id="contact-form" action="https://formspree.io/f/xjvowzqk" method="POST">
+        <fieldset>
+          <input type="text" placeholder="Name*" required>
+          <input type="email" placeholder="Email*" required>
+          <textarea placeholder="Message*" required></textarea>
+          <button id="submit" type="submit">Send Message</button>
+        </fieldset>
+      </form>
+    </section>
+    <!-- end contact-section -->
 
-      <!-- footer-section -->
-      <footer class="btm-section">
-        <p>Developed by:Devbriax <span>&copy;</span></p>
-      </footer>
-      <!-- end footer-section -->
+    <!-- footer-section -->
+    <footer class="btm-section">
+      <p>Developed by:Devbriax <span>&copy;</span></p>
+    </footer>
+    <!-- end footer-section -->
   </body>
 
 </html>
