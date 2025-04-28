@@ -155,6 +155,22 @@ footer a:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
+.home-btn {
+  padding: 16px;
+}
+
+.home-btn button{
+  padding: 5px;
+  margin: 3px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 section {
 display: flex;
   color: #ffff;
